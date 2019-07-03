@@ -83,3 +83,12 @@ body{
       list-style: none;
       margin-left: 20px;
   }
+  /* Picture Wrap Styling */
+  figure .alignleft {
+      float: left;
+      padding: 0 25px;
+  }
+  figure .alignright {
+      float: right;
+      padding: 0 25px;
+  }
