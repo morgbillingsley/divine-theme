@@ -21,7 +21,7 @@
     <hr>
     <div class="row">
         <div class="container text-left bg-transparent border-0">
-            <form>
+            <form action="<?php echo esc_url(admin_url("admin-post.php")); ?>" method="POST">
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name here...">
@@ -37,6 +37,9 @@
                 <div class="form-group">
                     <label for="name">Message:</label>
                     <textarea class="form-control" name="message" id="message" rows="5" placeholder="Enter your message here..."></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Send</button>
                 </div>
             </form>
         </div>
