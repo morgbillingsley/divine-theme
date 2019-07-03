@@ -1,0 +1,85 @@
+/*
+Theme Name: Divine Embodiment Hypnotherapy
+Theme URI: http://divineembodimenthypnotherapy.com/
+Author: Vivian Grace
+Author URI: http://divineembodimenthypnotherapy.com/
+version: 1.0.0
+*/
+
+body{
+    background-image: url(img/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'ZCOOL XiaoWei';
+  }
+  .nav-menu{
+    text-align: center;
+    display: inline;
+    background: rgba(255,255,255,0.3);
+  }
+  .nav-menu ul li{
+    display: inline;
+  }
+  .nav-menu a{
+      color: #000;
+      font-size: 18px;
+      font-weight: bold;
+  }
+  .nav-menu li:nth-child(even){
+      color: rgba(255,255,255,0.5);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
+      font-weight: normal;
+  }
+  .nav-menu a:hover{
+      text-decoration: none;
+      color: cornflowerblue;
+  }
+  .btn-square{
+      border: none;
+      border-radius: 0px;
+      padding: 8px;
+      text-decoration: none;
+  }
+  .btn-square:hover{
+      text-decoration: none;
+  }
+  .header{
+      width: 100%;
+      margin-top: 25px;
+      border: 1px solid rgba(255,255,255,0.5);
+      background-color: rgba(255,255,255,0.2);
+      text-align: center;
+  }
+  .header img{
+      margin: auto;
+  }
+  .container{
+    margin: auto;
+    width: 65%;
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+  }
+  .container h1{
+      margin-bottom: 50px;
+      font-family: 'Parisienne';
+      color: #000;
+  }
+  .container h4, .container p{
+      margin: 30px auto;
+      color: #000;
+  }
+  .container p{
+      font-size: 18px;
+  }
+  .post-preview p{
+      font-size: 16px;
+      margin: 15px 0px;
+  }
+  .cat-item{
+      list-style: none;
+      margin-left: 20px;
+  }
