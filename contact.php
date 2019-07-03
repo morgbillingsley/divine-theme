@@ -21,7 +21,6 @@
     <hr>
     <div class="row">
         <div class="container text-left bg-transparent border-0">
-            <h3 class="text-center">Vivian will get back to you as soon as possible.</h3>
             <form>
                 <div class="form-group">
                     <label for="name">Name:</label>
