@@ -22,6 +22,7 @@
     <div class="row">
         <div class="container text-left bg-transparent border-0">
             <form action="<?php echo esc_url(admin_url("admin-post.php")); ?>" method="POST">
+                <input type="hidden" name="action" value="contact">
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name here...">
