@@ -39,6 +39,6 @@
         $message = "A new contact form was submitted by {$fname} {$lname}.";
 
         // Redirect to homepage
-        wp_redirect(get_site_url());
+        wp_redirect('http://divineembodimenthypnotherapy.com/');
     }
 ?>
