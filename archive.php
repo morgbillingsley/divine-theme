@@ -7,11 +7,13 @@
                         <div class="w-100 bg-light p-3">
                             <?php $tags = get_the_tags(get_the_ID()); ?>
                             <div class="pt-3 pb-3">
-                                <?php foreach($tags as $tag) : ?>
-                                    <a class="mr-2 mb-2 btn-square bg-secondary text-white" href="http://divineembodimenthypnotherapy.com/tags/<?php echo $tag->slug; ?>">
-                                        <?php echo $tag->name; ?>
-                                    </a>
-                                <? endforeach; ?>
+                                <?php if($tags) : ?>
+                                    <?php foreach($tags as $tag) : ?>
+                                        <a class="mr-2 mb-2 btn-square bg-secondary text-white" href="http://divineembodimenthypnotherapy.com/tags/<?php echo $tag->slug; ?>">
+                                            <?php echo $tag->name; ?>
+                                        </a>
+                                    <? endforeach; ?>
+                                <?php endif; ?>
                             </div>
                             <h2 class="m-0"><a class="text-dark" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                             <small><?php the_time('F j, Y'); ?> | <a class="text-dark" href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a></small>
