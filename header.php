@@ -20,7 +20,7 @@
             <li>|</li>
             <a href="<?php echo get_page_link(6); ?>"><li>About Vivian Grace</li></a>
             <li>|</li>
-            <a href="<?php get_page_by_path('hypnotherapy/'); ?>"><li>Hypnotherapy</li></a>
+            <a href="<?php echo get_page_by_path('hypnotherapy/'); ?>"><li>Hypnotherapy</li></a>
             <li>|</li>
             <a href="<?php echo get_page_link(31); ?>"><li>Integrative Therapies</li></a>
             <li>|</li>
