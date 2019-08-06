@@ -18,17 +18,17 @@
         <ul>
             <a href="/"><li>Home</li></a>
             <li>|</li>
-            <a href="<?php echo get_page_link(6); ?>"><li>About Vivian Grace</li></a>
+            <a href="<?php echo get_permalink(get_page_by_path('about/')); ?>"><li>About Vivian Grace</li></a>
             <li>|</li>
             <a href="<?php echo get_permalink(get_page_by_path('hypnotherapy/')); ?>"><li>Hypnotherapy</li></a>
             <li>|</li>
-            <a href="<?php echo get_page_link(31); ?>"><li>Integrative Therapies</li></a>
+            <a href="<?php echo get_permalink(get_page_by_path('integrative-therapies/')); ?>"><li>Integrative Therapies</li></a>
             <li>|</li>
             <a href="http://divineembodimenthypnotherapy.com/blog/author/viviangrace/"><li>Blog</li></a>
             <li>|</li>
-            <a href="<?php echo get_page_link(18); ?>"><li>Contact</li></a>
+            <a href="<?php echo get_permalink(get_page_by_path('contact/')); ?>"><li>Contact</li></a>
             <li>|</li>
-            <a href="testimonials.html"><li>Testimonials</li></a>
+            <a href="<?php echo get_permalink(get_page_by_path('testimonials/')); ?>"><li>Testimonials</li></a>
         </ul>
       </div>
     </div>
