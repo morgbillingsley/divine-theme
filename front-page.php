@@ -9,7 +9,7 @@
                     <img class="mx-auto" src="<?php bloginfo('template_url'); ?>/img/flower-of-life.png" alt="Divine Embodiment Hypnotherapy" width="80%" height="100%" >
                 </div>
                 <div class="row mt-3">
-                    <a class="btn btn-lg btn-primary mx-auto" href="#">Schedule an Appointment Today!</a>
+                    <a class="btn btn-lg btn-primary mx-auto" href="<?php echo get_permalink(get_page_by_path('contact/')); ?>">Schedule an Appointment Today!</a>
                 </div>
                 <div class="row mt-5">
                     <iframe class="mx-auto" width="80%" height="255px" src="https://www.youtube.com/embed/NpEaa2P7qZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
