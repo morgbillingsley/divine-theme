@@ -28,7 +28,7 @@
                     <?php endwhile; ?>
                 <?php endif; ?>
             </div>
-            <div class="col-md-4 text-left">
+            <!-- <div class="col-md-4 text-left">
                 <div class="bg-light p-2 mb-3">
                     <?php
                         $args = array(
@@ -101,6 +101,6 @@
                         <a class="btn-square bg-primary text-white" href="<?php echo get_page_link(18); ?>">Message me!</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <?php get_footer(); ?>
