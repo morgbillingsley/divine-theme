@@ -24,7 +24,7 @@
             <li>|</li>
             <a href="<?php echo get_permalink(get_page_by_path('integrative-therapies/')); ?>"><li>Integrative Therapies</li></a>
             <li>|</li>
-            <a href="http://divineembodimenthypnotherapy.com/blog/author/viviangrace/"><li>Blog</li></a>
+            <a href="http://divineembodimenthypnotherapy.com/author/viviangrace/"><li>Blog</li></a>
             <li>|</li>
             <a href="<?php echo get_permalink(get_page_by_path('contact/')); ?>"><li>Contact</li></a>
             <li>|</li>
