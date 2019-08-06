@@ -94,7 +94,7 @@
                     <h4 class="m-0 mb-2 border-bottom border-dark">Contact</h4>
                     <p class="mt-2 mb-2" style="font-size:16px;">Click the button below to send me a personal message or schedule an appointment!</p>
                     <div class="text-center p-2">
-                        <a class="btn-square bg-primary text-white" href="<?php echo get_permalink(by_path('contact/')); ?>">Message me!</a>
+                        <a class="btn-square bg-primary text-white" href="<?php echo get_permalink(get_page_by_path('contact/')); ?>">Message me!</a>
                     </div>
                 </div>
             </div>
