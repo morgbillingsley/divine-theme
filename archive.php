@@ -7,7 +7,7 @@
                         <div class="w-100 bg-light p-3">
                             <?php $tags = get_the_tags(get_the_ID()); ?>
                             <div class="pt-3 pb-3">
-                                <?php if($tags) : ?>
+                                <?php if(count($tags) > 0) : ?>
                                     <?php foreach($tags as $tag) : ?>
                                         <a class="mr-2 mb-2 btn-square bg-secondary text-white" href="http://divineembodimenthypnotherapy.com/tags/<?php echo $tag->slug; ?>">
                                             <?php echo $tag->name; ?>
