@@ -1,8 +1,7 @@
         <hr>
         <div class="row p-3">
             <h4>
-                <address class="font-weight-bold">120 Northview Road Ste 1, Sedona, AZ 86336<br>
-                viviangrace@divineembodimenthypnotherapy.com | (602) 463-9252</address>
+                <address class="font-weight-bold">viviangrace@divineembodimenthypnotherapy.com | (602) 463-9252</address>
             </h4>
         </div>
     </div>

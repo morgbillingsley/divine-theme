@@ -39,10 +39,10 @@
                 </p>
             </div>
         </div>
-        <div class="map row">
+        <!-- <div class="map row">
             <div class="col-md-12 p-3">
                 <hr>
                 <iframe class="mx-auto m-3" width="50%" height="300px" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=120%20Northview%20Road%20Sedona%2C%20AZ%2086336+(Divine%20Embodiment%20Hypnotherapy)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
-        </div>
+        </div> -->
         <?php get_footer(); ?>
